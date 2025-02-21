@@ -1,700 +1,552 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* fuente descargada */
-
 @font-face {
-    font-family: 'Aeroblade';
-    src: url(../fuentes/Aeroblade/Aeroblade\ DEMO.ttf);
+  font-family: "Aeroblade";
+  src: url(../fuentes/Aeroblade/Aeroblade\ DEMO.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* inicio */
 /* estilos body */
-
 body {
-    font-family: "Montserrat", serif;
+  font-family: "Montserrat", serif;
 }
 
 /* estilos header */
-
 .logo-pagina {
-    font-family: "Aeroblade";
-    font-size: 34px;
+  font-family: "Aeroblade";
+  font-size: 34px;
 }
 
 .container-fluid {
-    padding-right: 180px;
-    padding-left: 250px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
+  padding-right: 180px;
+  padding-left: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
 }
 
 header nav ul {
-    margin: 10px;
+  margin: 10px;
+}
+header nav ul li {
+  margin: 15px;
 }
 
 .navbar-nav {
-    margin-left: 700px;
+  margin-left: 700px;
 }
 
 .nav-link {
-    font-weight: 600;
-}
-
-header nav ul li {
-    margin: 15px;
+  font-weight: 600;
 }
 
 header p {
-    text-align: center;
-    font-size: 14px;
-    background-color: #f1ede8;
-    padding: 7px;
-    margin: 0;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f1ede8;
+  padding: 7px;
+  margin: 0;
 }
 
 /* estilos imagen de presentacion */
-
 .img-texto-home img {
-    width: 100%;
-    height: 965px;
-    object-fit: cover;
+  width: 100%;
+  height: 965px;
+  object-fit: cover;
 }
 
 /* estilos coleccion productos */
-
 h1 {
-    text-align: center;
-    font-size: 30px;
-    margin: 35px 0px 40px 0px;
+  text-align: center;
+  font-size: 30px;
+  margin: 35px 0px 40px 0px;
 }
 
 .productos-fila {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
 .productos-fila div {
-    margin: 0px 23px 45px 23px;
-    overflow: hidden;
-    height: 550px;
+  margin: 0px 23px 45px 23px;
+  overflow: hidden;
+  height: 550px;
 }
-
 .productos-fila div:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-.productos-fila img {
-    width: 320px;
-    transition: all 0.5s;
+.productos-fila div img {
+  width: 320px;
+  transition: all 0.5s;
 }
-
-.productos-fila img:hover {
-    transform: scale(1.02);
+.productos-fila div img:hover {
+  transform: scale(1.02);
 }
-
-.productos-fila h3 {
-    font-size: 13px;
-    color: #452b1a;
-    margin: 9px 0px 10px 2px;
-    font-weight: 600;
+.productos-fila div h3 {
+  font-size: 13px;
+  color: #452b1a;
+  margin: 9px 0px 10px 2px;
+  font-weight: 600;
 }
-
-.productos-fila a {
-    text-decoration: none;
-    background-color: #452b1a;
-    color: white;
-    padding: 7px;
-    font-size: 12px;
-    margin-left: 2px;
+.productos-fila div a {
+  text-decoration: none;
+  background-color: #452b1a;
+  color: white;
+  padding: 7px;
+  font-size: 12px;
+  margin-left: 2px;
 }
 
 .destacados a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 /* estilos imagenes categorias */
-
 .contenedor-categorias {
-    margin: 35px 0px 65px 0px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  margin: 35px 0px 65px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .destacados img {
-    width: 450px;
-    margin: 17px;
-}
-
-/* productos */
-
-/* estilos mapa de pagina */
-
-.nombre-pagina-titulo {
-    margin: 30px 0px 15px 241px;
-}
-
-.nombre-pagina-titulo p {
-    font-size: 13px;
-    margin-bottom: 6px;
-}
-
-/* accesorios */
-
-.img-frase img {
-    width: 100%;
-    height: 880px;
-    object-fit: cover;
-}
-
-/* seccion contacto */
-
-.beneficios-formulario {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 33px;
-}
-
-.beneficios-texto p {
-    font-size: 18px;
-}
-
-.beneficios-texto ul li {
-    font-size: 18px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input {
-    width: 410px;
-}
-
-.input-enviar {
-    margin-top: 15px;
+  width: 450px;
+  margin: 17px;
 }
 
 /* estilos footer */
-
 footer {
-    background-color: #f1ede8;
-    margin-top: 80px;
-    padding-top: 30px;
+  background-color: #f1ede8;
+  margin-top: 80px;
+  padding-top: 30px;
 }
 
 .contenedor-links-footer {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 h4 {
-    font-size: 23px;
-    text-align: center;
-}
-
-.subcontenedor-links-footer ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-.subcontenedor-links-footer ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.subcontenedor-links-footer ul li {
-    margin-top: 5px;
+  font-size: 23px;
+  text-align: center;
 }
 
 .subcontenedor-links-footer {
-    margin-right: 800px;
+  margin-right: 800px;
+}
+.subcontenedor-links-footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+.subcontenedor-links-footer ul li {
+  margin-top: 5px;
+}
+.subcontenedor-links-footer ul li a {
+  color: black;
+  text-decoration: none;
 }
 
 .text-menu {
-    font-weight: 600;
-    font-size: 17px;
+  font-weight: 600;
+  font-size: 17px;
 }
 
 .contenedor-logos img {
-    display: block;
-    margin-top: 10px;
-    width: 18px;
+  display: block;
+  margin-top: 10px;
+  width: 18px;
 }
 
 .parrafo-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+.parrafo-footer p {
+  margin-bottom: 0;
 }
 
-.parrafo-footer p {
-    margin-bottom: 0;
+/* productos */
+/* estilos mapa de pagina */
+.nombre-pagina-titulo {
+  margin: 30px 0px 15px 241px;
+}
+.nombre-pagina-titulo p {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* accesorios */
+.img-frase img {
+  width: 100%;
+  height: 880px;
+  object-fit: cover;
+}
+
+/* contacto */
+.beneficios-formulario {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 33px;
+}
+
+.beneficios-texto p, .beneficios-texto ul li p {
+  font-size: 18px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  width: 410px;
+}
+form .input-enviar {
+  margin-top: 15px;
 }
 
 /* media queries */
 /* notebook */
-
 @media (max-width: 1280px) {
-    /* barra de navegacion */
-
-    .container-fluid {
-        padding-right: 0px;
-        padding-left: 50px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    .nav-link {
-        font-size: 14px;
-        padding: 5px;
-    }
-
-    .nav-item {
-        margin: 7px;
-    }
-
-    .navbar-nav {
-        margin-left: 588px;
-    }
-
-    /* img presentacion */
-
-    .img-texto-home img {
-        height: 675px;
-    }
-
-    /* titulo */
-    h1 {
-        font-size: 25px;
-        margin: 30px 0px 40px 0px;
-    }
-
-    /* cards productos */
-    .productos-fila div {
-        margin: 0px 16px 0px 16px;
-        height: 510px;
-    }
-
-    .productos-fila img {
-        width: 270px;
-    }
-
-    .productos-fila h3 {
-        font-size: 11px;
-        margin-bottom: 5px;
-        margin-top: 9px;
-        margin-left: 2px;
-    }
-
-    .productos-fila a {
-        text-decoration: none;
-        background-color: #452b1a;
-        color: white;
-        padding: 5px;
-        font-size: 10px;
-        margin-left: 2px;
-    }
-
-    /* categorias */
-
-    .destacados img {
-        width: 370px;
-    }
-
-    /* footer */
-
-    footer {
-        padding-top: 25px;
-    }
-
-    footer h4 {
-        font-size: 21px;
-    }
-
-    .subcontenedor-links-footer {
-        padding-right: 155px;
-    }
-
-    .contenedor-logos img {
-        margin-top: 15px;
-    }
-
-    .text-menu {
-        font-size: 16px;
-    }
-
-    .subcontenedor-links-footer li a {
-        font-size: 15px;
-    }
-
-    .parrafo-footer {
-        padding-bottom: 15px;
-    }
-
-    .parrafo-footer p {
-        font-size: 14px;
-    }
-
-    /* productos */
-
-    .nombre-pagina-titulo {
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-
-    .nombre-pagina-titulo h2 {
-        font-size: 27px;
-    }
-
-    .nombre-pagina-titulo p {
-        font-size: 12px;
-    }
-
-    /* accesorios */
-
-    .img-frase img {
-        height: 625px;
-    }
-
-    /* contacto */
-
-    .beneficios-formulario {
-        justify-content: space-around;
-        margin-top: 27px;
-    }
-
-    .beneficios-texto {
-        margin-right: 80px;
-    }
-
-    .beneficios-texto h3 {
-        font-size: 25px;
-    }
-
-    .beneficios-texto p {
-        font-size: 17px;
-        margin-bottom: 7px;
-    }
-
-    .beneficios-texto ul li {
-        font-size: 17px;
-    }
-
-    .formulario h3 {
-        font-size: 25px;
-    }
-
+  /* barra de navegacion */
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .nav-link {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .nav-item {
+    margin: 7px;
+  }
+  .navbar-nav {
+    margin-left: 588px;
+  }
+  /* img presentacion */
+  .img-texto-home img {
+    height: 675px;
+  }
+  /* titulo */
+  h1 {
+    font-size: 25px;
+    margin: 30px 0px 40px 0px;
+  }
+  /* cards productos */
+  .productos-fila div {
+    margin: 0px 16px 0px 16px;
+    height: 510px;
+  }
+  .productos-fila div img {
+    width: 270px;
+  }
+  .productos-fila div h3 {
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-left: 2px;
+  }
+  .productos-fila div a {
+    text-decoration: none;
+    background-color: #452b1a;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    margin-left: 2px;
+  }
+  /* categorias */
+  .destacados img {
+    width: 370px;
+  }
+  /* footer */
+  footer {
+    padding-top: 25px;
+  }
+  footer h4 {
+    font-size: 21px;
+  }
+  .subcontenedor-links-footer {
+    padding-right: 155px;
+  }
+  .subcontenedor-links-footer li a {
+    font-size: 15px;
+  }
+  .contenedor-logos img {
+    margin-top: 15px;
+  }
+  .text-menu {
+    font-size: 16px;
+  }
+  .parrafo-footer {
+    padding-bottom: 15px;
+  }
+  .parrafo-footer p {
+    font-size: 14px;
+  }
+  /* productos */
+  .nombre-pagina-titulo {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .nombre-pagina-titulo h2 {
+    font-size: 27px;
+  }
+  .nombre-pagina-titulo p {
+    font-size: 12px;
+  }
+  /* accesorios */
+  .img-frase img {
+    height: 625px;
+  }
+  /* contacto */
+  .beneficios-formulario {
+    justify-content: space-around;
+    margin-top: 27px;
+  }
+  .beneficios-texto, .beneficios-texto ul li {
+    margin-right: 80px;
+  }
+  .beneficios-texto h3, .beneficios-texto ul li h3 {
+    font-size: 25px;
+  }
+  .beneficios-texto p, .beneficios-texto ul li p {
+    font-size: 17px;
+    margin-bottom: 7px;
+  }
+  .beneficios-texto ul li {
+    font-size: 17px;
+  }
+  .formulario h3 {
+    font-size: 25px;
+  }
 }
-
 /* tablet */
 @media (max-width: 834px) {
-
-    /* barra de navegacion */
-    .container-fluid {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .navbar-nav {
-        margin-left: 0px;
-        --bs-nav-link-padding-y: 0px;
-    }
-
-    .nav-item {
-        margin-left: 0px;
-        margin-top: 5px;
-    }
-
-    /* texto header */
-
-    .contenedor-parrafo-header p {
-        font-size: 12px;
-    }
-
-    /* img presentacion */
-    .img-texto-home img {
-        height: 490px;
-    }
-
-    /* titulo */
-
-    h1 {
-        font-size: 23px;
-        margin-bottom: 35px;
-    }
-
-    /* productos */
-
-    .productos-fila img {
-        width: 180px;
-    }
-
-    .productos-fila h3 {
-        font-size: 8px;
-    }
-
-    .productos-fila div {
-        height: 400px;
-        margin: 0px 12px 0px 12px;
-    }
-
-    /* categorias */
-
-    .destacados img {
-        width: 241px;
-        margin-top: 0px;
-    }
-
-    /* mapa de pagina */
-    .nombre-pagina-titulo {
-        margin-left: 22px;
-    }
-
-    /* footer */
-
-    footer {
-        margin-top: 55px;
-    }
-
-    .subcontenedor-links-footer {
-        padding-right: 0px;
-        margin-right: 635px;
-    }
-
-    footer h4 {
-        font-size: 18px;
-    }
-
-    .text-menu {
-        font-size: 13px;
-    }
-
-    .subcontenedor-links-footer li a {
-        font-size: 12px;
-    }
-
-    .parrafo-footer {
-        padding-bottom: 18px;
-    }
-
-    .parrafo-footer p {
-        font-size: 14px;
-    }
-
-    .contenedor-logos img {
-        width: 14px;
-        margin-top: 14px;
-    }
-
-    /* accesorios */
-
-    .img-frase img {
-        height: 450px;
-    }
-
-    /* contacto */
-
-    .beneficios-formulario {
-        margin-top: 25px;
-    }
-
-    .beneficios-texto {
-        margin-right: 0px;
-    }
-
-    .beneficios-texto h3 {
-        font-size: 20px;
-    }
-
-    .beneficios-texto p {
-        font-size: 15px;
-    }
-
-    .beneficios-texto ul li {
-        font-size: 14px;
-    }
-
-    .formulario {
-        margin-right: 25px;
-    }
-
-    .formulario h3 {
-        font-size: 20px;
-    }
-
-    input {
-        width: 265px;
-    }
-
-    label {
-        font-size: 15px;
-    }
-
+  /* barra de navegacion */
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .navbar-nav {
+    margin-left: 0px;
+    --bs-nav-link-padding-y: 0px;
+  }
+  .nav-item {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  /* texto header */
+  .contenedor-parrafo-header p {
+    font-size: 12px;
+  }
+  /* img presentacion */
+  .img-texto-home img {
+    height: 490px;
+  }
+  /* titulo */
+  h1 {
+    font-size: 23px;
+    margin-bottom: 35px;
+  }
+  /* productos */
+  .productos-fila div {
+    height: 400px;
+    margin: 0px 12px 0px 12px;
+  }
+  .productos-fila div img {
+    width: 180px;
+  }
+  .productos-fila div h3 {
+    font-size: 8px;
+  }
+  /* categorias */
+  .destacados img {
+    width: 241px;
+    margin-top: 0px;
+  }
+  /* mapa de pagina */
+  .nombre-pagina-titulo {
+    margin-left: 22px;
+  }
+  /* footer */
+  footer {
+    margin-top: 55px;
+  }
+  footer h4 {
+    font-size: 18px;
+  }
+  .subcontenedor-links-footer {
+    padding-right: 0px;
+    margin-right: 635px;
+  }
+  .subcontenedor-links-footer li a {
+    font-size: 12px;
+  }
+  .text-menu {
+    font-size: 13px;
+  }
+  .parrafo-footer {
+    padding-bottom: 18px;
+  }
+  .parrafo-footer p {
+    font-size: 14px;
+  }
+  .contenedor-logos img {
+    width: 14px;
+    margin-top: 14px;
+  }
+  /* accesorios */
+  .img-frase img {
+    height: 450px;
+  }
+  /* contacto */
+  .beneficios-formulario {
+    margin-top: 25px;
+  }
+  .beneficios-texto, .beneficios-texto ul li {
+    margin-right: 0px;
+  }
+  .beneficios-texto h3, .beneficios-texto ul li h3 {
+    font-size: 20px;
+  }
+  .beneficios-texto p, .beneficios-texto ul li p {
+    font-size: 15px;
+  }
+  .beneficios-texto ul li {
+    font-size: 14px;
+  }
+  .formulario {
+    margin-right: 25px;
+  }
+  .formulario h3 {
+    font-size: 20px;
+  }
+  input {
+    width: 265px;
+  }
+  label {
+    font-size: 15px;
+  }
 }
-
 /* celular */
-
 @media (max-width: 390px) {
-
-    /* barra de navegacion */
-    .container-fluid {
-        padding: 3px 20px 3px 20px;
-    }
-
-    .logo-pagina {
-        font-size: 25px;
-    }
-
-    .navbar-toggler-icon {
-        width: 22px;
-    }
-
-    .collapsed {
-        padding: 1px 7px 1px 7px;
-    }
-
-    .navbar-nav {
-        margin-top: 7px;
-    }
-
-    .nav-link {
-        font-size: 12px;
-        padding: 0;
-    }
-
-    .contenedor-parrafo-header p {
-        font-size: 9px;
-        padding: 4px;
-    }
-
-    /* img presentacion */
-
-    .img-texto-home img {
-        height: 250px;
-    }
-
-    /* seccion productos */
-
-    h1 {
-        font-size: 18px;
-        margin: 24px 0px 24px 0px;
-    }
-
-    .productos-fila img {
-        width: 166px;
-    }
-
-    .productos-fila div {
-        height: 345px;
-    }
-
-    .productos-fila a {
-        padding: 4px;
-        font-size: 8px;
-    }
-
-    .productos-fila h3 {
-        margin-bottom: 0px;
-    }
-
-    /* categorias */
-
-    .contenedor-categorias {
-        margin: 5px 0px 40px 0px;
-    }
-
-    .destacados img {
-        width: 351px;
-    }
-
-    /* footer */
-
-    footer {
-        margin-top: 30px;
-    }
-
-    footer h4 {
-        font-size: 14px;
-    }
-
-    .subcontenedor-links-footer {
-        margin-right: 225px;
-        margin-top: 20px;
-    }
-
-    .subcontenedor-links-footer .text-menu {
-        font-size: 10px;
-    }
-
-    .subcontenedor-links-footer ul li {
-        margin-top: 1px;
-    }
-
-    .subcontenedor-links-footer ul li a {
-        font-size: 9px;
-    }
-
-    .contenedor-logos img {
-        width: 13px;
-        margin-top: 15px;
-    }
-
-    .parrafo-footer {
-        padding-bottom: 15px;
-    }
-
-    .parrafo-footer p {
-        font-size: 11px;
-    }
-
-    /* seccion productos */
-
-    .nombre-pagina-titulo p {
-        font-size: 9px;
-        margin: 2px;
-    }
-
-    .nombre-pagina-titulo h2 {
-        font-size: 20px;
-    }
-
-    .nombre-pagina-titulo {
-        margin-left: 17px;
-    }
-
-    /* accesorios */
-
-    .img-frase img {
-        height: 350px;
-    }
-
-    /* contacto */
-
-    .beneficios-formulario {
-        display: block;
-        margin-left: 60px;
-    }
-
-    .beneficios-texto h3,
-    .formulario h3 {
-        font-size: 17px;
-    }
-
-    .beneficios-texto p,
-    label,
-    .input-enviar {
-        font-size: 13px;
-    }
-
-    .beneficios-texto ul li {
-        font-size: 12px;
-    }
+  /* barra de navegacion */
+  .container-fluid {
+    padding: 3px 20px 3px 20px;
+  }
+  .logo-pagina {
+    font-size: 25px;
+  }
+  .navbar-toggler-icon {
+    width: 22px;
+  }
+  .collapsed {
+    padding: 1px 7px 1px 7px;
+  }
+  .navbar-nav {
+    margin-top: 7px;
+  }
+  .nav-link {
+    font-size: 12px;
+    padding: 0;
+  }
+  .contenedor-parrafo-header p {
+    font-size: 9px;
+    padding: 4px;
+  }
+  /* img presentacion */
+  /* seccion productos */
+  h1 {
+    font-size: 18px;
+    margin: 24px 0px 24px 0px;
+  }
+  .productos-fila div {
+    height: 345px;
+  }
+  .productos-fila div img {
+    width: 166px;
+  }
+  .productos-fila div a {
+    padding: 4px;
+    font-size: 8px;
+  }
+  .productos-fila div h3 {
+    margin-bottom: 0px;
+  }
+  /* categorias */
+  .contenedor-categorias {
+    margin: 5px 0px 40px 0px;
+  }
+  .destacados img {
+    width: 351px;
+  }
+  /* footer */
+  footer {
+    margin-top: 30px;
+  }
+  footer h4 {
+    font-size: 14px;
+  }
+  .subcontenedor-links-footer {
+    margin-right: 225px;
+    margin-top: 20px;
+  }
+  .subcontenedor-links-footer .text-menu {
+    font-size: 10px;
+  }
+  .subcontenedor-links-footer ul li {
+    margin-top: 1px;
+  }
+  .subcontenedor-links-footer ul li a {
+    font-size: 9px;
+  }
+  .contenedor-logos img {
+    width: 13px;
+    margin-top: 15px;
+  }
+  .parrafo-footer {
+    padding-bottom: 15px;
+  }
+  .parrafo-footer p {
+    font-size: 11px;
+  }
+  /* seccion productos */
+  .nombre-pagina-titulo {
+    margin-left: 17px;
+  }
+  .nombre-pagina-titulo p {
+    font-size: 9px;
+    margin: 2px;
+  }
+  .nombre-pagina-titulo h2 {
+    font-size: 20px;
+  }
+  /* accesorios */
+  .img-frase img {
+    height: 350px;
+  }
+  /* contacto */
+  .beneficios-formulario {
+    display: block;
+    margin-left: 60px;
+  }
+  .beneficios-texto h3, .beneficios-texto ul li h3,
+  .formulario h3 {
+    font-size: 17px;
+  }
+  .beneficios-texto p, .beneficios-texto ul li p,
+  label,
+  .input-enviar {
+    font-size: 13px;
+  }
+  .beneficios-texto ul li {
+    font-size: 12px;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */

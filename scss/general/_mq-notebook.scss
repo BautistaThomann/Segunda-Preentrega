@@ -1,0 +1,164 @@
+/* media queries */
+/* notebook */
+
+@media (max-width: 1280px) {
+
+    /* barra de navegacion */
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .nav-item {
+        margin: 7px;
+    }
+
+    .navbar-nav {
+        margin-left: 588px;
+    }
+
+    /* img presentacion */
+    .img-texto-home {
+        img {
+            height: 675px;
+        }
+    }
+
+    /* titulo */
+    h1 {
+        font-size: 25px;
+        margin: 30px 0px 40px 0px;
+    }
+
+    /* cards productos */
+    .productos-fila {
+        div {
+            margin: 0px 16px 0px 16px;
+            height: 510px;
+
+            img {
+                width: 270px;
+            }
+
+            h3 {
+                font-size: 11px;
+                margin-bottom: 5px;
+                margin-top: 9px;
+                margin-left: 2px;
+            }
+
+            a {
+                text-decoration: none;
+                background-color: #452b1a;
+                color: white;
+                padding: 5px;
+                font-size: 10px;
+                margin-left: 2px;
+            }
+        }
+    }
+
+    /* categorias */
+    .destacados {
+        img {
+            width: 370px;
+        }
+    }
+
+    /* footer */
+    footer {
+        padding-top: 25px;
+
+        h4 {
+            font-size: 21px;
+        }
+    }
+
+    .subcontenedor-links-footer {
+        padding-right: 155px;
+
+        li {
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .contenedor-logos {
+        img {
+            margin-top: 15px;
+        }
+    }
+
+    .text-menu {
+        font-size: 16px;
+    }
+
+    .parrafo-footer {
+        padding-bottom: 15px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    /* productos */
+    .nombre-pagina-titulo {
+        margin-top: 20px;
+        margin-left: 50px;
+
+        h2 {
+            font-size: 27px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    /* accesorios */
+    .img-frase {
+        img {
+            height: 625px;
+        }
+    }
+
+    /* contacto */
+
+    .beneficios-formulario {
+        justify-content: space-around;
+        margin-top: 27px;
+    }
+
+    .beneficios-texto {
+        margin-right: 80px;
+
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 17px;
+            margin-bottom: 7px;
+        }
+
+        ul {
+            li {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .formulario {
+        h3 {
+            font-size: 25px;
+        }
+    }
+}

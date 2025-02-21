@@ -1,0 +1,167 @@
+/* celular */
+
+@media (max-width: 390px) {
+
+    /* barra de navegacion */
+    .container-fluid {
+        padding: 3px 20px 3px 20px;
+    }
+
+    .logo-pagina {
+        font-size: 25px;
+    }
+
+    .navbar-toggler-icon {
+        width: 22px;
+    }
+
+    .collapsed {
+        padding: 1px 7px 1px 7px;
+    }
+
+    .navbar-nav {
+        margin-top: 7px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .contenedor-parrafo-header {
+        p {
+            font-size: 9px;
+            padding: 4px;
+        }
+    }
+
+    /* img presentacion */
+    .img-texto-home {
+        img {}
+    }
+
+    /* seccion productos */
+    h1 {
+        font-size: 18px;
+        margin: 24px 0px 24px 0px;
+    }
+
+    .productos-fila {
+        div {
+            height: 345px;
+
+            img {
+                width: 166px;
+            }
+
+            a {
+                padding: 4px;
+                font-size: 8px;
+            }
+
+            h3 {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    /* categorias */
+    .contenedor-categorias {
+        margin: 5px 0px 40px 0px;
+    }
+
+    .destacados {
+        img {
+            width: 351px;
+        }
+    }
+
+    /* footer */
+    footer {
+        margin-top: 30px;
+
+        h4 {
+            font-size: 14px;
+        }
+    }
+
+    .subcontenedor-links-footer {
+        margin-right: 225px;
+        margin-top: 20px;
+
+        .text-menu {
+            font-size: 10px;
+        }
+
+        ul {
+            li {
+                margin-top: 1px;
+
+                a {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+
+    .contenedor-logos {
+        img {
+            width: 13px;
+            margin-top: 15px;
+        }
+    }
+
+    .parrafo-footer {
+        padding-bottom: 15px;
+
+        p {
+            font-size: 11px;
+        }
+    }
+
+    /* seccion productos */
+    .nombre-pagina-titulo {
+        margin-left: 17px;
+
+        p {
+            font-size: 9px;
+            margin: 2px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    /* accesorios */
+    .img-frase {
+        img {
+            height: 350px;
+        }
+    }
+
+    /* contacto */
+    .beneficios-formulario {
+        display: block;
+        margin-left: 60px;
+    }
+
+    .beneficios-texto h3,
+    .formulario h3 {
+        font-size: 17px;
+    }
+
+    .beneficios-texto p,
+    label,
+    .input-enviar {
+        font-size: 13px;
+    }
+
+    .beneficios-texto {
+        ul {
+            li {
+                font-size: 12px;
+            }
+        }
+    }
+}

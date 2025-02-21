@@ -1,0 +1,158 @@
+/* tablet */
+@media (max-width: 834px) {
+
+    /* barra de navegacion */
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbar-nav {
+        margin-left: 0px;
+        --bs-nav-link-padding-y: 0px;
+    }
+
+    .nav-item {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    /* texto header */
+    .contenedor-parrafo-header {
+        p {
+            font-size: 12px;
+        }
+    }
+
+    /* img presentacion */
+    .img-texto-home {
+        img {
+            height: 490px;
+        }
+    }
+
+    /* titulo */
+    h1 {
+        font-size: 23px;
+        margin-bottom: 35px;
+    }
+
+    /* productos */
+    .productos-fila {
+        div {
+            height: 400px;
+            margin: 0px 12px 0px 12px;
+
+            img {
+                width: 180px;
+            }
+
+            h3 {
+                font-size: 8px;
+            }
+        }
+    }
+
+    /* categorias */
+    .destacados {
+        img {
+            width: 241px;
+            margin-top: 0px;
+        }
+    }
+
+    /* mapa de pagina */
+    .nombre-pagina-titulo {
+        margin-left: 22px;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 55px;
+
+        h4 {
+            font-size: 18px;
+        }
+    }
+
+    .subcontenedor-links-footer {
+        padding-right: 0px;
+        margin-right: 635px;
+
+        li {
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .text-menu {
+        font-size: 13px;
+    }
+
+    .parrafo-footer {
+        padding-bottom: 18px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .contenedor-logos {
+        img {
+            width: 14px;
+            margin-top: 14px;
+        }
+    }
+
+    /* accesorios */
+    .img-frase {
+        img {
+            height: 450px;
+        }
+    }
+
+    /* contacto */
+
+    .beneficios-formulario {
+        margin-top: 25px;
+    }
+
+    .beneficios-texto {
+        margin-right: 0px;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        ul {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .formulario {
+        margin-right: 25px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    input {
+        width: 265px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+
+
+
+}

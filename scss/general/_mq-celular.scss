@@ -37,7 +37,9 @@
 
     /* img presentacion */
     .img-texto-home {
-        img {}
+        img {
+            height: 240px;
+        }
     }
 
     /* seccion productos */
@@ -144,23 +146,36 @@
     .beneficios-formulario {
         display: block;
         margin-left: 60px;
-    }
 
-    .beneficios-texto h3,
-    .formulario h3 {
-        font-size: 17px;
-    }
+        .beneficios-texto {
+            font-size: 17px;
 
-    .beneficios-texto p,
-    label,
-    .input-enviar {
-        font-size: 13px;
-    }
+            p {
+                font-size: 13px;
+            }
 
-    .beneficios-texto {
-        ul {
-            li {
-                font-size: 12px;
+            ul {
+                li {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .formulario {
+            h3 {
+                font-size: 17px;
+            }
+
+            input {
+                width: 270px;
+            }
+
+            label {
+                font-size: 13px;
+            }
+
+            .input-enviar {
+                font-size: 13px;
             }
         }
     }

@@ -460,6 +460,9 @@ form .input-enviar {
     padding: 4px;
   }
   /* img presentacion */
+  .img-texto-home img {
+    height: 240px;
+  }
   /* seccion productos */
   h1 {
     font-size: 18px;
@@ -535,17 +538,26 @@ form .input-enviar {
     display: block;
     margin-left: 60px;
   }
-  .beneficios-texto h3, .beneficios-texto ul li h3,
-  .formulario h3 {
+  .beneficios-formulario .beneficios-texto, .beneficios-formulario .beneficios-texto ul li, .beneficios-texto ul .beneficios-formulario li {
     font-size: 17px;
   }
-  .beneficios-texto p, .beneficios-texto ul li p,
-  label,
-  .input-enviar {
+  .beneficios-formulario .beneficios-texto p, .beneficios-texto ul .beneficios-formulario li p {
     font-size: 13px;
   }
-  .beneficios-texto ul li {
+  .beneficios-formulario .beneficios-texto ul li, .beneficios-texto ul .beneficios-formulario li ul li {
     font-size: 12px;
+  }
+  .beneficios-formulario .formulario h3 {
+    font-size: 17px;
+  }
+  .beneficios-formulario .formulario input {
+    width: 270px;
+  }
+  .beneficios-formulario .formulario label {
+    font-size: 13px;
+  }
+  .beneficios-formulario .formulario .input-enviar {
+    font-size: 13px;
   }
 }
 

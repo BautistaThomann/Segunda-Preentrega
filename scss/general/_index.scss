@@ -48,7 +48,7 @@ header {
     p {
         text-align: center;
         font-size: 14px;
-        background-color: #f1ede8;
+        background-color: $color-principal;
         padding: 7px;
         margin: 0;
     }
@@ -96,15 +96,15 @@ h1 {
 
         h3 {
             font-size: 13px;
-            color: #452b1a;
+            color: $color-secundario;
             margin: 9px 0px 10px 2px;
             font-weight: 600;
         }
 
         a {
             text-decoration: none;
-            background-color: #452b1a;
-            color: white;
+            background-color: $color-secundario;
+            color: $color-links;
             padding: 7px;
             font-size: 12px;
             margin-left: 2px;
@@ -114,7 +114,7 @@ h1 {
 
 .destacados {
     a {
-        color: black;
+        color: $color-secundario-links;
         text-decoration: none;
     }
 }
@@ -134,7 +134,7 @@ h1 {
 
 /* estilos footer */
 footer {
-    background-color: #f1ede8;
+    background-color: $color-principal;
     margin-top: 80px;
     padding-top: 30px;
 }
@@ -160,7 +160,7 @@ h4 {
             margin-top: 5px;
 
             a {
-                color: black;
+                color: $color-secundario-links;
                 text-decoration: none;
             }
         }
